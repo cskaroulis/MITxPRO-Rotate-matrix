@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +8,24 @@
   <link href="styles.css"  rel="stylesheet" />
 </head>
 <body>
+  <button onclick = "transpose()" width ="40">Transpose Matrix</button>
+  <button onclick = "rotate()" width ="40">Rotate Matrix</button>
+  <button onclick = "update()" width ="40">Update Graphics</button>   
+  <button onclick = "reset()" width ="40">Reset Matrix</button>
+
+  <main id="matrix" class="matrix">
+    <div id="c00"></div>  
+    <div id="c01"></div>
+    <div id="c02"></div>
+    <div id="c10"></div>
+    <div id="c11"></div>
+    <div id="c12"></div>
+    <div id="c20"></div>
+    <div id="c21"></div>
+    <div id="c22"></div>
+  </main>
 
   <!--mark up here-->
-
   <script src="./main.js"></script>
 </body>
 </html>
